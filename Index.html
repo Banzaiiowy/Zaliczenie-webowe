@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Web page with kittens</title>
-</head>
-
-<body>
-
-    <script src="./script.js"></script>
-
-    <header>Kitten page
-        <img src="./img/cat-1144200_960_720.png" alt="page logo">
-    <nav>
-        <ul>
-            <li><a href="#">Main page</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    </header>
-    <main>
-        <div class="articles">
-            <article>
-                <h1>Kitten Bob</h1>
-                <figure>
-                <img src="./img/602_2.jpg" alt="Bob">
-                    <figcaption>Bob is a really judgemental kitten. Look at his gaze</figcaption>
-                </figure>
-            </article>
-            <article>
-                <h1>Kitten Steve</h1>
-                    <figure></figure>
-                    <img src="./img/602.jpg" alt="Steve">
-            </article>
-
-            <article>
-                <h1>Kitten Katrin</h1>
-                    <img src="./img/605.jpg" alt="Katrin">
-            </article>
-
-            <article>
-                <h1>Kitten Lucky</h1>
-                    <img src="./img/602_1.jpg" alt="Lucky">
-            </article>
-
-            <article>
-                <h1>Kitten Star</h1>
-                <img src="./img/602_3.jpg" alt="Star">
-            </article>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Web page with kittens</title>
+    </head>
+    <body>
+        <header>
+            <h1>Kitten page</h1>
+            <img src="./img/cat-1144200_960_720.png" alt="page logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Main page</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="articles">
+                <article>
+                    <h2>Kitten Bob</h2>
+                    <figure>
+                        <img src="./img/602_2.jpg" alt="Bob">
+                        <figcaption>Bob is a really judgemental kitten. Look at his gaze. Even if Bob is only 3 months old, he seems to be very knowledge cat</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <h2>Kitten Steve</h2>
+                    <figure>
+                        <img src="./img/602.jpg" alt="Steve">
+                        <figcaption>Steve really likes to stare through the windows. He's almost one year old and likes to wander in the forest</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <h2>Kitten Katrin</h2>
+                    <figure>
+                        <img src="./img/605.jpg" alt="Katrin">
+                        <figcaption>Katrin is one of the most majestic cats. She's the same age as Steve. She enjoys sleeping near humans</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <h2>Kitten Lucky</h2>
+                    <figure>
+                        <img src="./img/602_1.jpg" alt="Lucky">
+                        <figcaption>Lucky is youngest and smallest of the kittens in this pack. She's 2 weeks old</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <h2>Kitten Star</h2>
+                    <figure>
+                        <img src="./img/602_3.jpg" alt="Star">
+                        <figcaption>Star really likes to play at her cat tree. Star is 6 weeks old</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </main>
+        <div class="socials">
+            <nav>
+                <ul>
+                    <li><a href="http://facebook.pl/"><img src="./img/fb.png" alt="facebook logo"></a></li>
+                    <li><a href="https://twitter.com/home"><img src="./img/twiter.png" alt="twitter logo"></a></li>
+                    <li><a href="https://www.google.com/"><img src="./img/google.png" alt="google logo"></a></li>
+                    <li><img class="waving-hand" src="./img/cursor-154478_1280.png" alt="hand cursor"></li>
+                </ul>
+            </nav>
         </div>
-    </main>
-    <div id="hiding" class="socials" onmouseover="show()" onmouseout="hide()">
-        <!-- onmouseover="style.left='0px'" onmouseout="style.left='-160px'"    -->
-        <nav>
-            <ul>
-                <li><a href="http://facebook.pl/"><img src="./img/fb.png" alt="facebook logo"></a></li>
-                <li><a href="https://twitter.com/home"><img src="./img/twiter.png" alt="twitter logo"></a></li>
-                <li><a href="https://www.google.com/"><img src="./img/google.png" alt="google logo"></a></li>
-                <li><img class="wavingHand" src="./img/cursor-154478_1280.png" alt="hand cursor"></li>
-            </ul>
-        </nav>
-    </div>
-    <footer>Piotr Milecki 2021 - Wprowadzenie do technologii webowych</footer>
-</body>
+        <footer>Piotr Milecki 2021 - Wprowadzenie do technologii webowych</footer>
+        <script src="./script.js" defer></script>
+    </body>
 </html>

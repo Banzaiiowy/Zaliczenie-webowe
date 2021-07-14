@@ -1,7 +1,9 @@
-function show(){
-    document.getElementById("hiding").style.left = "0px";
-}
+var social = document.querySelector(".socials");
 
-function hide(){
-    document.getElementById("hiding").style.left = "-160px";
-}
+social.addEventListener("mouseover", function(){
+    social.style.left= "0px";
+}, false)
+
+social.addEventListener("mouseout", function(){
+    social.style.left= "-160px";
+}, false)

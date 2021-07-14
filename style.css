@@ -19,8 +19,11 @@ header {
     background-color: #706993;
     position: sticky;
     top: 0;
-    font-size: 3em;
     font-weight: bold;
+}
+
+header h1{
+    margin: 0 auto;
 }
 
 header img {
@@ -106,7 +109,12 @@ footer {
 }
 
 ::-webkit-scrollbar{
-    visibility: hidden;
+    background-color: #928dae2c;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #706993;
+    border-radius: 15px;
 }
 
 /* ------------------------------------------------------------------------------ */
@@ -133,6 +141,7 @@ footer {
     }
 
     header img {
+        transition: ease-in-out 0.5s;
         animation: spinning 1.3s infinite linear alternate;
     }
 
@@ -140,7 +149,6 @@ footer {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .socials{
@@ -148,7 +156,11 @@ footer {
         transition: ease-in-out 0.3s;
     }
 
-    .wavingHand{
+    .socials nav {
+        height: 100%;
+    }
+
+    .waving-hand{
         animation: waving 0.7s infinite linear alternate;
     }
 
@@ -161,19 +173,11 @@ footer {
     article img:hover{
         z-index: 100;
         margin: auto;
-        transform: scale(2.0);
-        transition-duration: 1s;
+        transform: scale(1.5);
+        transition-duration: 0.7s;
     }
     
-    ::-webkit-scrollbar{
-        visibility: visible;
-        background-color: #928dae2c;
-    }
 
-    ::-webkit-scrollbar-thumb{
-        background-color: #706993;
-        border-radius: 15px;
-    }
 
     @keyframes spinning {
         0% {
